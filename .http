@@ -1,0 +1,14 @@
+### Get users
+GET http://localhost:3000/users
+
+### Post user
+POST http://localhost:3000/users/create
+Content-Type: application/json
+
+{
+    "username": "Daniel Alejandro",
+    "email": "zambranodaniel0316@gmail.com"
+}
+
+### Get a user
+GET http://localhost:3000/users/id/1
